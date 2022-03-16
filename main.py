@@ -18,5 +18,5 @@ per_person = total_after_tip / people
 #total_per_person = round(per_person, 2)
 total_per_person = "{:.2f}".format(per_person)
 
-final_message = f"Each person should pay: ${total_per_person}"
-print(final_message)
+message = f"Each person should pay: ${total_per_person}"
+print(message)
